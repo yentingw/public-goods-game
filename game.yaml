@@ -1,0 +1,23 @@
+---
+game:
+  agent_type_list:
+    - QAgent
+    - JointQAgent
+  output_directory: outputs
+  group_size: 5
+  population_size: 10
+  episodes: 5
+  rounds: 3
+  F: 2
+  M: 0
+  cost: 0.01
+  csv: true
+  plot: true
+
+agents:
+  action_set: [0, 1]
+  alpha: 0.1
+  epsilon: -1
+  gamma: 0.5
+  state_set: [0]
+  accumulative_reward: 0
